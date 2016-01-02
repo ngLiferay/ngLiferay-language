@@ -1,0 +1,39 @@
+{
+  "name": "ngLiferay-language",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ngLiferay/ngLiferay-language",
+  "description": "ngLiferay-language directive to inject localized strings as per locale",
+  "main": [
+    "./dist/js/scripts.js"
+  ],
+  "moduleType": [],
+  "keywords": [
+    "ngLiferay",
+    "liferay"
+  ],
+  "authors": [
+    "Yogesh Agarwal"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    ".tmp",
+    ".tmpWar"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "bootstrap": "^3.2.0",
+		"angular-bootstrap": "~0.14.3"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.css"
+      ]
+    }
+  }
+}
