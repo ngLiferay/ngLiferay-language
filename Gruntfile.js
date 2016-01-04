@@ -24,7 +24,7 @@ module.exports = function(grunt) {
   var appConfig = {
     app: require('./bower.json').appPath || 'app',
     dist: 'dist',
-    lrProps: 'lr.properties',
+    lrProps: ['lr.properties', 'lr-override.properties'],
     warDistFolder: 'dist',
     connect: {
       host: 'localhost',
